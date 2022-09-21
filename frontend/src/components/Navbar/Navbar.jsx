@@ -13,7 +13,10 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+//Link
+import { Link } from 'react-router-dom';
+
+const pages = ['smartphones', 'laptops', 'drones','login'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const ResponsiveAppBar = () => {
@@ -55,7 +58,7 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            STORE
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -115,6 +118,7 @@ const ResponsiveAppBar = () => {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
+            <Link style={{textDecoration:'none'}} to={`/${page}`} >
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -122,6 +126,7 @@ const ResponsiveAppBar = () => {
               >
                 {page}
               </Button>
+            </Link>
             ))}
           </Box>
 
