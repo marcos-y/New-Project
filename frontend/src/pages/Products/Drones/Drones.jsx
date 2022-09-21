@@ -14,6 +14,7 @@ const Drones = () =>{
             <Card img={img1}></Card>
             <Card img={img2}></Card>
             <Card img={img3}></Card>
+            <Card img={img3}></Card>
         </div>
         </div>
         </>
