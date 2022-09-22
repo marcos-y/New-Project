@@ -18,7 +18,7 @@ export default function MultiActionAreaCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            LogIn, Login!
+           This is the new Login, please subscribe
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Please, login with your email or username. If you forgot your password, please tell us
