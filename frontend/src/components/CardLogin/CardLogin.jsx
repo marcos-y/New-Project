@@ -14,7 +14,7 @@ export default function MultiActionAreaCard(props) {
           component="img"
           height="140"
           image={props.img}
-          alt="login_image"
+          alt="Second_Image"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -26,7 +26,7 @@ export default function MultiActionAreaCard(props) {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Login
+          Login Now!!!!
         </Button>
       </CardActions>
     </Card>
