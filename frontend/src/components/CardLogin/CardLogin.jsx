@@ -18,10 +18,11 @@ export default function MultiActionAreaCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            LogIn
+            LogIn, Login!
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Please, login with your email or username
+            Please, login with your email or username. If you forgot your password, please tell us
+            Dont forget to subsribe !!!!!
           </Typography>
           <TextField id="outlined-basic" label="Email" variant="outlined" />
           <TextField id="outlined-basic" label="Password" variant="outlined" />
