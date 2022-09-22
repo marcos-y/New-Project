@@ -8,21 +8,17 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 export default function MultiActionAreaCard(props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 340 }}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
           image={props.img}
-          alt="green iguana"
+          alt="login_image"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-           This is the new Login, please subscribe
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Please, login with your email or username. If you forgot your password, please tell us
-            Dont forget to subsribe !!!!!
+           This is the new Login !!, please subscribe
           </Typography>
           <TextField id="outlined-basic" label="Email" variant="outlined" />
           <TextField id="outlined-basic" label="Password" variant="outlined" />
@@ -30,7 +26,7 @@ export default function MultiActionAreaCard(props) {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
+          Login
         </Button>
       </CardActions>
     </Card>

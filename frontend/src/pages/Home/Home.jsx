@@ -5,7 +5,7 @@ const Home = () =>{
 
     return( 
     <>
-    <h1>Welcome to the Store</h1>
+    <h1>Welcome to the StoreEE</h1>
     <div>
         <ImageList></ImageList>
     </div>
