@@ -12,13 +12,13 @@ export default function MultiActionAreaCard(props) {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          height="150"
           image={props.img}
-          alt="Second_Image"
+          alt="THIRD_IMAGE"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-           This is the new Login !!, please subscribe
+           This is the new Login !!, please subscribe immediately
           </Typography>
           <TextField id="outlined-basic" label="Email" variant="outlined" />
           <TextField id="outlined-basic" label="Password" variant="outlined" />
