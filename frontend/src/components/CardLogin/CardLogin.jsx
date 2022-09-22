@@ -18,7 +18,7 @@ export default function MultiActionAreaCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-           This is the new Login !!, please subscribe immediately
+           This is the new Loginnn !!, please dont forget to subscribe!!!!!!
           </Typography>
           <TextField id="outlined-basic" label="Email" variant="outlined" />
           <TextField id="outlined-basic" label="Password" variant="outlined" />
@@ -26,7 +26,7 @@ export default function MultiActionAreaCard(props) {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Login Now!!!!
+          Login Now!!!! YEAAAH
         </Button>
       </CardActions>
     </Card>
